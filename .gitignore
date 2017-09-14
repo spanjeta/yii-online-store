@@ -1,0 +1,10 @@
+/framework/
+/wdir/
+/ext-prod/
+/ext-dev/
+/assets/
+/test/
+/config/dev-db.php
+/themes/united/images/
+/themes/united/_images/
+/themes/united/images_old1/

@@ -1,0 +1,41 @@
+ @media (min-width: 768px) and (max-width: 991px) {
+     #myCarousel .carousel-inner .item .item-item:last-child {
+         display: none;
+     }
+ }
+ 
+ @media (max-width: 768px) {
+     #mymyCarousel .carousel-inner {
+         height: 320px;
+     }
+ }
+ 
+ .carousel-inner {
+     overflow-y: hidden;
+ }
+ 
+ .carousel-inner .active.left {
+     left: -25%;
+ }
+ 
+ .carousel-inner .next {
+     left: 25%;
+ }
+ 
+ .carousel-inner .prev {
+     left: -25%;
+ }
+ 
+ .carousel-control {
+     width: 4%;
+ }
+ 
+ .carousel-control.left,
+ .carousel-control.right {
+     margin-left: 15px;
+     background-image: none;
+ }
+ 
+ .carousel-inner .item-item {
+     padding: 0!important;
+ }
